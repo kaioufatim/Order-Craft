@@ -1,32 +1,18 @@
-Spring MVC hello world example (Maven and Thymeleaf)
-===============================
 
-This is the source code for the article - [Spring MVC hello world example (Maven and Thymeleaf)](https://mkyong.com/spring-mvc/spring-mvc-hello-world-example/).
+Bienvenue dans l'application
 
-_P.S This tutorial is NOT a Spring Boot application, just pure Spring Web MVC!_
-
-## 1. Technologies and tools used:
-* Java 11
-* Spring 5.2.22.RELEASE
-* Thymeleaf 3.0.15.RELEASE
-* Embedded Jetty Server 9.4.45.v20220203
-* Servlet API 4.0.4
-* Bootstrap 5.2.0 (webjars)
-* IntelliJ IDEA
-* Maven 3.8.6
-* Spring Test 5.2.22.RELEASE
-* Hamcrest 2.2
-* JUnit 5.9
-
-## 2. How to run this project?
-```shell
-$ git clone https://github.com/mkyong/spring-mvc/
-
-$ cd spring-mvc-hello-world
-
-$ mvn clean jetty:run
-
-# visit http://localhost:8080/spring
-
-# visit http://localhost:8080/spring/hello/mkyong
-```
+## Fonctionnalités
+# Gestion des Produits:
+- Affichage de la liste des produits
+- Ajout d'un nouveau produit
+- Modification des informations d'un produit existant
+- Suppression d'un produit
+  # Gestion des clients:
+- Affichage de la liste des clients
+- Ajout d'un nouveau client
+- Modification des informations d'un client existant
+- Suppression d'un client
+diagramme "use case"
+![image](https://github.com/kaioufatim/Order-Craft/assets/110690381/798c1f28-dca9-4e62-969e-5de7dc7b944d)
+diagramme de classe :
+![image](https://github.com/kaioufatim/Order-Craft/assets/110690381/fef673a3-1c03-4690-8b9d-2be2ae290f7a)
